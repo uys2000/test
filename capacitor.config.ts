@@ -5,7 +5,9 @@ const config: CapacitorConfig = {
   appName: "haber",
   webDir: "dist",
   server: {
-    url: "http://192.168.1.68:8100",
+    androidScheme: "https",
+    cleartext: true,
+    url: "https://www.haber49.net/",
   },
 };
 
