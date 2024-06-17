@@ -7,7 +7,12 @@ const config: CapacitorConfig = {
   server: {
     androidScheme: "https",
     cleartext: true,
-    url: "https://cors-proxy-ekm4.onrender.com/https://www.haber49.net/",
+    url: "https://192.168.1.138:5173/",
+  },
+  plugins: {
+    PushNotifications: {
+      presentationOptions: ["badge", "sound", "alert"],
+    },
   },
 };
 
